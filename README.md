@@ -41,7 +41,7 @@ Each assignment will have a specific rubric, but generally, the grades will depe
 **Score obtained: 100/100**
 
 -----
-### Assignment 1: Sequence Labeling: Assigning Dialogue Acts to Sequences of Utterances
+### Assignment 2: Sequence Labeling - Assigning Dialogue Acts to Sequences of Utterances
 ##### Due Date: April 13<sup>th</sup> 2020, before midnight
 
 **<a href="https://nld.ict.usc.edu/cs544-spring2020/assignment2/CS544-assignment-two.pdf">Description <i class="text-primary zoomlink fa fa-file-pdf-o fa-lg"></i><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" type="text/css" crossorigin="anonymous"/></a>**</br>
