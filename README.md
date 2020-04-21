@@ -1,5 +1,4 @@
 <h1 align="center">Applied Natural Language Processing CSCI544 20201<img width="10%" src="./usc.jpg" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/></h1>
-
 Offered by *Mark Core* from **University of Southern California, Los Angeles**
 ###### Course website: https://nld.ict.usc.edu/cs544-spring2020/
 -----
@@ -26,7 +25,7 @@ Each assignment will have a specific rubric, but generally, the grades will depe
 
 - **Assignment 1**: Due February 23<sup>rd</sup>, 4pm.
 	- Total contribution towards final grade: 20%
-	- Score: **<span style="color:red;">100/100</span>**
+	- Score: 100/100
 - **Assignment 2**: Due April 13<sup>th</sup>, before midnight.
 	- Total contribution towards final grade: 20%
 
@@ -34,4 +33,4 @@ Each assignment will have a specific rubric, but generally, the grades will depe
 -----
 ### Assignment 1: Spam filtering using a naïve Bayes classifier
 ##### Due Date: February 23<sup>rd</sup>, 4pm
-###### <a href="https://nld.ict.usc.edu/cs544-spring2020/assignment1/CS544-assignment1.pdf">Description <i class="text-primary zoomlink fa fa-file-pdf-o fa-lg"></i><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" type="text/css" crossorigin="anonymous"/></a>
+###### Description: <a href="#"><i class="text-primary zoomlink fa fa-file-pdf-o fa-lg"></i><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" type="text/css" crossorigin="anonymous"/></a>
