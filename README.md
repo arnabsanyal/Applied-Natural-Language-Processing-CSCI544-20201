@@ -11,7 +11,7 @@ The goal of this course is to teach students fundamental and cutting-edge concep
 
 Natural language is often ambiguous, and machine learning is crucial to making decisions under uncertainty. Many other tools in basic artificial intelligence (e.g., planning, knowledge representation and reasoning) also play a role in understanding and responding to natural language. However, this class is aimed at students with a general background in computer science (no need to take a machine learning or AI course as a prerequisite). Covers the necessary machine learning and basic AI material in this course.
 
-The topics tentatively planned for this semester are listed below and include speech processing (language modeling, speech recognition, speech synthesis), linguistic foundations (parts of speech, syntax, speech disfluencies, semantics, dialogue, discourse), machine learning, and applications (information retrieval, information extraction, machine translation, natural language generation, dialogue systems, automated grading). There is no required text book for the course; lectures will be used to cover the material. References for optional reading materials will be provided for each lecture but there will be no required readings. One source of material for the course is **Jurafsky and Martin's** book *"Speech and Language Processing."* The second edition was published in 2009. While the third edition is being written, the draft chapters are available free and along with their class slides. Notable chapters include:
+The topics tentatively planned for this semester are listed below and include speech processing (language modeling, speech recognition, speech synthesis), linguistic foundations (parts of speech, syntax, speech disfluencies, semantics, dialogue, discourse), machine learning, and applications (information retrieval, information extraction, machine translation, natural language generation, dialogue systems, automated grading). There is no required text book for the course; lectures will be used to cover the material. References for optional reading materials will be provided for each lecture but there will be no required readings. One source of material for the course is **Jurafsky and Martin's** book *"Speech and Language Processing"*. The second edition was published in 2009. While the third edition is being written, the draft chapters are available free and along with their class slides. Notable chapters include:
 
 - Chapter 4: Naives Bayes Classification
 - Chapter 19: Word Senses and WordNet
@@ -25,15 +25,24 @@ Interested students can continue their study with other courses in USC's [comput
 
 Each assignment will have a specific rubric, but generally, the grades will depend on the performance of a system on unseen test data and a short technical report describing experiments on data provided (seen data). Each assignment will also have its own late policy, but generally there will be a penalty for each day late rapidly increasing to a zero grade on the assignment.
 
-- **Assignment 1**: Due February 23<sup>rd</sup>, 4pm.
+- **Assignment 1**: Due February 23<sup>rd</sup> 2020, 4pm.
 	- Total contribution towards final grade: 20%
 	- Score: **<span style="color:red;">100/100</span>**
-- **Assignment 2**: Due April 13<sup>th</sup>, before midnight.
+- **Assignment 2**: Due April 13<sup>th</sup> 2020, before midnight.
 	- Total contribution towards final grade: 20%
+	- Score:
 
 
 -----
 ### Assignment 1: Spam filtering using a naïve Bayes classifier
-##### Due Date: February 23<sup>rd</sup>, 4pm
-###### <a href="https://nld.ict.usc.edu/cs544-spring2020/assignment1/CS544-assignment1.pdf">Description <i class="text-primary zoomlink fa fa-file-pdf-o fa-lg"></i><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" type="text/css" crossorigin="anonymous"/></a>
-###### Score obtained: 100/100
+##### Due Date: February 23<sup>rd</sup> 2020, 4pm
+
+**<a href="https://nld.ict.usc.edu/cs544-spring2020/assignment1/CS544-assignment1.pdf">Description <i class="text-primary zoomlink fa fa-file-pdf-o fa-lg"></i><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" type="text/css" crossorigin="anonymous"/></a>**</br>
+**Score obtained: 100/100**
+
+-----
+### Assignment 1: Sequence Labeling: Assigning Dialogue Acts to Sequences of Utterances
+##### Due Date: April 13<sup>th</sup> 2020, before midnight
+
+**<a href="https://nld.ict.usc.edu/cs544-spring2020/assignment2/CS544-assignment-two.pdf">Description <i class="text-primary zoomlink fa fa-file-pdf-o fa-lg"></i><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" type="text/css" crossorigin="anonymous"/></a>**</br>
+**Score obtained:**
