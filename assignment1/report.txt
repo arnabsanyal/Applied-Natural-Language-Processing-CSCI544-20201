@@ -1,0 +1,42 @@
+Assignment 1 Report
+
+Name: Arnab Sanyal (arnabsan@usc.edu)
+
+1. Performance on the development data with 100% of the training data
+1a. spam precision:     0.990924092409241
+1b. spam recall:        0.9804081632653061
+1c. spam F1 score:      0.985638079606073
+1d. ham precision:      0.9532163742690059
+1e. ham recall:         0.978
+1f. ham F1 score:       0.9654491609081934
+
+2. Performance on the development data with 10% of the training data
+2a. spam precision:     0.9862475442043221
+2b. spam recall:        0.9561904761904761
+2c. spam F1 score:      0.9709864603481624
+2d. ham precision:      0.9001240694789082
+2e. ham recall:         0.9673333333333334
+2f. ham F1 score:       0.9325192802056554
+
+3. Description of enhancement(s) you tried (e.g., different approach(es) to smoothing, treating common words differently, dealing with unknown words differently):
+
+Intuition - Punctuation marks should NOT ideally play a large part in determining the spam nature of the email.
+
+Code Improvement - During creation of model (training), I got rid of all punctuation marks as tokens from all emails, as I was individually reading the emails one-by-one. I used the string library that comes with python,
+
+import string
+f = open(file_path, mode='r', encoding='latin1')
+content = f.read()
+content.translate(str.maketrans('', '', string.punctuation))
+content = content.split()
+f.close()
+
+Visible Improvement(s): If considering statistic metric rounded to two places after decimal point (as reported by vocareum), there is only an increase in Ham precision score (went to 96% from 95%). Other metric scores remain the same. There is a speed-up boost during inference (nbclassify.py runs faster). I assume this is because our preprocessing stage leaves lesser tokens in our trained model and hence inference time is faster.
+
+4. Best performance results based on enhancements. Note that these could be the same or worse than the standard implementation.
+4a. spam precision:     0.9906593406593407
+4b. spam recall:        0.9812244897959184
+4c. spam F1 score:      0.9859193438140808
+4d. ham precision:      0.9550488599348534
+4e. ham recall:         0.9773333333333334
+4f. ham F1 score:       0.9660626029654037
