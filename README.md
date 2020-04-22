@@ -21,7 +21,7 @@ The topics tentatively planned for this semester are listed below and include sp
 Interested students can continue their study with other courses in USC's [computational linguistics curriculum](https://cl.usc.edu/courses/).
 
 ### Grading
-#### Programming assignments (60% in total).
+#### Programming assignments (40% in total).
 
 Each assignment will have a specific rubric, but generally, the grades will depend on the performance of a system on unseen test data and a short technical report describing experiments on data provided (seen data). Each assignment will also have its own late policy, but generally there will be a penalty for each day late rapidly increasing to a zero grade on the assignment.
 
@@ -30,7 +30,10 @@ Each assignment will have a specific rubric, but generally, the grades will depe
 	- Score: **<span style="color:red;">100/100</span>**
 - **Assignment 2**: Due April 13<sup>th</sup> 2020, before midnight.
 	- Total contribution towards final grade: 20%
-	- Score:
+	- Score: **<span style="color:red;">99.75/100</span>**
+- **Assignment 3**: Not Due.
+	- Total contribution towards final grade: 0%
+	- Score: Ungraded
 
 
 -----
@@ -45,4 +48,13 @@ Each assignment will have a specific rubric, but generally, the grades will depe
 ##### Due Date: April 13<sup>th</sup> 2020, before midnight
 
 **<a href="https://nld.ict.usc.edu/cs544-spring2020/assignment2/CS544-assignment-two.pdf">Description <i class="text-primary zoomlink fa fa-file-pdf-o fa-lg"></i><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" type="text/css" crossorigin="anonymous"/></a>**</br>
-**Score obtained:**
+**Score obtained: 99.75/100**
+
+-----
+### Assignment 3: Deep Learning for NLP
+##### Due Date: Not Due
+
+**<a href="https://nld.ict.usc.edu/cs544-spring2020/CS544_assignment3_ungraded.pdf">Description <i class="text-primary zoomlink fa fa-file-pdf-o fa-lg"></i><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" type="text/css" crossorigin="anonymous"/></a>**</br>
+**Score obtained: Ungraded**
+
+-----
