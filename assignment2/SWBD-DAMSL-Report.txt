@@ -1,0 +1,46 @@
+Assignment 2 Report
+
+Name:  Arnab Sanyal (arnabsan@usc.edu)
+
+1. Describe how you evaluated your baseline and advanced features:
+
+The data-set folder was read and the files were randomly shuffled upon which ~25% of the files would be set aside for testing and 75% of the files would be used for training. Since the files are shuffled in a pseudo-random way (seeded random shuffle), two separate runs may see different train and development sets. The test sets are sorted to prevent mismatched sequences while predicting dialogue act tags.
+
+2. Accuracy of baseline features during your evaluation:
+
+Accuracy of my baseline feature set is 71.9536 % (On one such random seeded runs)
+
+3. Describe your advanced feature set:
+
+Along with the usual 4 features mentioned in the assignment to be used by the baseline-tagger, I am using the following three extra features,
+
+  - Removing Stopwords
+
+      To get stopwords, I populated a list of these from nltk.corpus.stopwords. In total there seems to be 6800 of these stopwords but taking set operations reduces it to 6255 (That means the total number of unique stopwords is 6255). I create this set and serialize it as a json file "stopwords.json" that I provide along with my code files. Advance-tagger reads from this set and removes stopwords as it comes across these tokens in utterances.
+
+      However since the file "stopwords.json" is quite a large file (~98 kB), I wrote alternate code where, in case "stopwords.json" is not allowed to be read in then Advance tagger uses a basic set of hand-crafted stopwords (of size 12), and uses this set instead to eliminate these tokens when present in utterances.
+
+  - Using Bi-grams
+
+      A pair of consecutive written letters, syllables or words
+
+  - Using Tri-grams
+
+      A triplet of consecutive written letters, syllables or words
+
+4. If you tried and rejected alternate advanced feature sets, please describe them:
+
+    Tried the following:
+
+      - All 4 baseline features + stopwords rejection + bi-grams
+      - All 4 baseline features + stopwords rejection + tri-grams
+      - Stopwords rejection + POS tags + Tokens + Bi-grams (No Speaker flip feature and no first-utterance feature)
+      - Stopwords rejection + POS tags + Tokens + Bi-grams + Tri-grams (No Speaker flip feature and no first-utterance feature)
+
+    Finally went with the feature set described as answer to part 3, i.e.,
+      - All 4 baseline features + stopwords rejection + bi-grams + tri-grams
+
+5. Accuracy of advanced features was:
+
+Accuracy of my advanced feature set is 73.5311 % (On one such random seeded runs)
+
